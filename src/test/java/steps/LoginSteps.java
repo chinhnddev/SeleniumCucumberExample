@@ -9,7 +9,7 @@ public class LoginSteps {
 
     @Given("The user is on "+CONTEXT)
     public void the_user_is_on_login_volam_truyen_ky_page() {
-        System.out.println("The user is on login volam truyen ky page");
+        System.out.println("The user is on login volam truyen ky page test");
     }
 
     @When("The user enters name {string} and password {string} on "+CONTEXT)
