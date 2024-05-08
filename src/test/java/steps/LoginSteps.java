@@ -14,7 +14,7 @@ public class LoginSteps {
 
     @When("The user enters name {string} and password {string} on "+CONTEXT)
     public void theUserEntersNameAndPassword(String user, String pass) {
-        System.out.println("The user enter username and password");
+        System.out.println("The user enter username and password Test");
     }
 
     @Then("The user clicks button login on "+CONTEXT)
